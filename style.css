@@ -1,0 +1,1049 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* =========================================== */
+/* ============== HALAMAN INDEX ============== */
+/* =========================================== */
+
+.index{
+  background-image: url(stock/bg.jpg);
+  background-size: cover; 
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index .blue{
+  background-color: rgb(22, 72, 99, 0.8);
+  backdrop-filter: blur(3px);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.index .blue p{
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+.index .blue #abc{
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.index .blue .link{
+  margin-top: 15px;
+  margin-top: 50px;
+}
+
+.index .blue .link a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #ff9900;
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+/* =========================================== */
+/* ============ REGISTER ADMIN =========== */
+/* =========================================== */
+
+.register-admin {
+  background-image: url(stock/bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-admin fieldset {
+  display: flex;
+  border: 1px solid #fff;
+  width: 250px;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(24, 76, 172, 0.88);
+  /* backdrop-filter: blur(2px); */
+}
+
+.register-admin h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.register-admin h3 {
+  text-align: center;
+  color: #fff;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+.register-admin input,
+select {
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+.register-admin #role {
+  color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 7px;
+}
+
+.register-admin button {
+  padding: 7px;
+  border-radius: 5px;
+  margin-top: 7px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(255, 177, 32);
+  transition: 0.4s;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+
+.register-admin button:hover {
+  background-color: rgb(255, 101, 81);
+}
+
+.register-admin #link {
+  text-align: center;
+  color: #fff;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.register-admin a {
+  text-decoration: none;
+  color: #d4d4d4;
+}
+
+
+
+
+/* =========================================== */
+/* ============ LOGIN DAN REGISTER =========== */
+/* =========================================== */
+
+.logreg {
+  background-image: url(stock/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logreg fieldset {
+  display: flex;
+  border: 1px solid #fff;
+  width: 250px;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(24, 76, 172, 0.88);
+  /* backdrop-filter: blur(2px); */
+}
+
+.logreg h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.logreg h3 {
+  text-align: center;
+  color: #fff;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+.logreg input,
+select {
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+.logreg #role {
+  color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 7px;
+}
+
+.logreg button {
+  padding: 7px;
+  border-radius: 5px;
+  margin-top: 7px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(255, 177, 32);
+  transition: 0.4s;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+
+.logreg button:hover {
+  background-color: rgb(255, 101, 81);
+}
+
+.logreg #link {
+  text-align: center;
+  color: #fff;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.logreg a {
+  text-decoration: none;
+  color: #d4d4d4;
+}
+
+/* =========================================== */
+/* ========= HOMEPAGE ADMIN - PETUGAS ======== */
+/* =========================================== */
+
+.admin-petugas {
+  display: flex;
+  flex-direction: row;
+}
+
+.admin-petugas .sidebar {
+  background-color: #6fa8dc;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.admin-petugas .sidebar h1,
+.admin-petugas .sidebar h3 {
+  color: #fff;
+}
+
+.admin-petugas .sidebar h3 {
+  margin-bottom: 100px;
+}
+
+.admin-petugas .sidebar a {
+  text-decoration: none;
+  color: #fff;
+  outline: none;
+  font-size: 20px;
+}
+
+.admin-petugas .sidebar a:hover {
+  font-weight: bold;
+}
+
+.admin-petugas .sidebar #logout-link {
+  position: absolute;
+  bottom: 30px;
+  color: #ff0400;
+  font-weight: bold;
+}
+
+.admin-petugas .display {
+  padding: 30px;
+  /* background-color: red; */
+  width: 82%;
+}
+
+.admin-petugas .display #title-txt {
+  background-color: #dddddd;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+.admin-petugas .display .big-container {
+  display: flex;
+  flex-direction: row;
+  /* background-color: #cf2a27; */
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.admin-petugas .display .mini-container {
+  display: flex;
+  padding: 15px 0;
+  flex-direction: column;
+  background-color: #ff9900;
+  font-weight: bold;
+  color: #fff;
+  width: auto;
+  border-radius: 5px;
+}
+
+.admin-petugas .display .mini-container1 {
+  display: flex;
+  padding: 15px 0;
+  flex-direction: column;
+  background-color: #cf2a27;
+  font-weight: bold;
+  color: #fff;
+  width: auto;
+  border-radius: 5px;
+}
+
+.admin-petugas .display .mini-container2 {
+  display: flex;
+  padding: 15px 0;
+  flex-direction: column;
+  background-color: #009e0f;
+  font-weight: bold;
+  color: #fff;
+  width: auto;
+  border-radius: 5px;
+}
+
+.admin-petugas .display .mini-container hr,
+.admin-petugas .display .mini-container1 hr,
+.admin-petugas .display .mini-container2 hr {
+  background-color: #fff;
+  border: 1px solid #fff;
+  margin: 10px 0;
+}
+
+.admin-petugas .display .mini-container span,
+.admin-petugas .display .mini-container1 span,
+.admin-petugas .display .mini-container2 span {
+  padding: 0 20px 0 20px;
+  font-size: 20px;
+}
+
+.admin-petugas #tb-info-user {
+  width: 100%;
+  border: 1px solid#dddddd;
+  border-collapse: collapse;
+}
+
+.admin-petugas #tb-info-user tr > td {
+  padding: 20px;
+  border: 1px solid #dddddd;
+}
+
+/* =========================================== */
+/* ========= DATA BUKU ADMIN - PETUGAS ======= */
+/* =========================================== */
+
+.admin-petugas #tb-form-buku {
+  width: 50%;
+}
+
+.admin-petugas #tb-form-buku tr > #label {
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.admin-petugas #tb-form-buku input[type="text"],
+.admin-petugas #tb-form-buku input[type="file"],
+.admin-petugas #tb-form-buku input[type="password"],
+.admin-petugas #tb-form-buku input[type="email"] {
+  padding: 8px;
+  width: 90%;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.admin-petugas #tb-form-buku select {
+  border: 1px solid #ddd;
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  width: 96%;
+}
+
+.admin-petugas #tb-form-buku textarea {
+  margin: 5px;
+  width: 92%;
+  height: 150px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.admin-petugas #tb-form-buku input[type="submit"] {
+  padding: 8px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 5px;
+  width: 40%;
+  background-color: #2b78e4;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.admin-petugas #tb-form-buku a {
+  padding: 8px 20px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 5px;
+  background-color: #2b78e4;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.admin-petugas #tb-form-buku input[type="submit"]:hover,
+.admin-petugas #tb-form-buku a:hover {
+  background-color: #cf2a27;
+  /* letter-spacing: 2px; */
+}
+
+/* =========================================== */
+/* ========= KOLEKSI ADMIN - PETUGAS ====+==== */
+/* =========================================== */
+
+.admin-petugas .koleksi-wrap {
+  width: 100%;
+  height: 80%;
+  /* background-color: #df9292; */
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.admin-petugas #buku {
+  /* transform: scale(1); */
+  width: 150px;
+  height: 370px;
+  padding: 7px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.admin-petugas #buku img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  height: 250px;
+  margin-bottom: 10px  ;
+}
+
+.admin-petugas .tb-info {
+  /* padding: 5px; */
+  font-size: 12px;
+  width: 100%;
+  /* border: 1px solid #ddd; */
+}
+
+.admin-petugas .tb-info tr > #label {
+  /* padding-right: 7px; */
+  padding-bottom: 3px;
+  /* padding-right: -10px; */
+  /* border: 1px solid #000; */
+  width: auto;
+}
+
+.admin-petugas .tb-info tr > td {
+  padding-right: 7px;
+  padding-bottom: 5px;
+  /* border: 1px solid #000; */
+  width: 100%;
+}
+
+.admin-petugas .tb-info tr > td a{
+  float: right;
+  padding-top: 7px;
+  margin: 3px;
+  background-color: #2b78e4;
+  padding: 3px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+/* =========================================== */
+/* ========== DETAIL ADMIN - PETUGAS ========= */
+/* =========================================== */
+
+.admin-petugas #detail{
+  width: 500px;
+  height: 350px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.admin-petugas #detail img {
+  width: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.admin-petugas .tb-detail {
+  /* padding: 5px; */
+  font-size: 15px;
+  width: 90% ;
+}
+
+.admin-petugas .tb-detail tr > td {
+  /* padding-right: 7px; */
+  padding-bottom: 3px;
+  /* padding-right: px; */
+  padding: 5px;
+  width: auto;
+  /* border: 1px solid #000; */
+}
+
+.admin-petugas .tb-detail tr > td a{
+  float: right;
+  padding-top: 5px;
+  margin: 5px;
+}
+
+.admin-petugas #tb-sinopsis {
+  margin-top: 10px;
+}
+
+.admin-petugas .tb-detail tr > td a{
+  float: right;
+  padding-top: 7px;
+  margin: 3px;
+  background-color: #2b78e4;
+  padding: 5px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+/* =========================================== */
+/* ========= KATEGORI ADMIN - PETUGAS ======== */
+/* =========================================== */
+
+.admin-petugas #tb-form-kategori tr > td {
+  padding: 7px;
+  font-size: 20px;
+  /* width: 250px; */
+  /* border: 1px solid #ddd; */
+}
+
+.admin-petugas #tb-form-kategori input[type="text"] {
+  padding: 4px;
+  border: 1px solid #ddd;
+  outline: none;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.admin-petugas #tb-form-kategori input[type="submit"] {
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  background-color: #2b78e4;
+  color: #fff;
+  /* font-size: 15px; */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.admin-petugas .wrap-table {
+  width: 100%;
+  height: 80%;
+  overflow-y: scroll;
+  /* background-color: #ff2d38; */
+  margin-top: 10px;
+  padding: 7px;
+}
+
+.admin-petugas #tb-display-kategori {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-petugas #tb-display-kategori tr > th {
+  position: sticky;
+  top: 0;
+  background-color: #369eff;
+  color: #fff;
+}
+
+.admin-petugas #tb-display-kategori tr > th,
+.admin-petugas #tb-display-kategori tr > td {
+  border: 1px solid #dddddd;
+  padding: 10px;
+  text-align: center;
+}
+
+/* =========================================== */
+/* ========= GENERATE ADMIN - PETUGAS ======== */
+/* =========================================== */
+
+.admin-petugas #generate {
+  width: auto;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  /* display: inline; */
+}
+
+.admin-petugas #generate ol > li {
+  margin-left: 25px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.admin-petugas #generate ol > li a {
+  text-decoration: none;
+  background-color: #2b78e4;
+  color: #fff;
+  padding: 3px 15px;
+  border-radius: 5px;
+  letter-spacing: 1.5px;
+}
+
+.admin-petugas #print {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-petugas #print tr > th {
+  text-align: left;
+  font-size: 20px;
+  background-color: #2b78e4;
+  border: 1px solid #ddd;
+  padding: 15px;
+  color: #fff;
+}
+
+.admin-petugas #print tr > td {
+  text-align: left;
+  font-size: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.admin-petugas #print tr > td a {
+  text-decoration: none;
+  color: #9db2bf;
+}
+
+.print {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+}
+
+.print #report-print {
+  width: 70%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  border: 1px solid #dddd;
+}
+
+.print #report-print tr > th {
+  padding: 7px;
+  background-color: #2b78e4;
+  color: #fff;
+  border: 1px solid #dddd;
+  text-align: center;
+}
+
+.print #report-print tr > td {
+  padding: 5px;
+  border: 1px solid #dddd;
+  text-align: center;
+}
+
+.print #report-print tr > #unik {
+  padding: 9px;
+  border: 1px solid #dddd;
+  text-align: center;
+}
+
+
+/* =========================================== */
+/* =========================================== */
+/* ============= HOMEPAGE PEMINJAM =========== */
+/* =========================================== */
+/* =========================================== */
+
+.peminjam {
+  display: flex;
+  flex-direction: row;
+}
+
+.peminjam .sidebar {
+  background-color: #164863;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.peminjam .sidebar h1,
+.peminjam .sidebar h3 {
+  color: #fff;
+}
+
+.peminjam .sidebar h3 {
+  margin-bottom: 100px;
+}
+
+.peminjam .sidebar a {
+  text-decoration: none;
+  color: #fff;
+  outline: none;
+  font-size: 20px;
+}
+
+.peminjam .sidebar a:hover {
+  font-weight: bold;
+}
+
+.peminjam .sidebar #logout-link {
+  position: absolute;
+  bottom: 30px;
+  color: #ff0400;
+  font-weight: bold;
+}
+
+.peminjam .display {
+  padding: 30px;
+  /* background-color: red; */
+  width: 82%;
+}
+
+.peminjam .display #title-txt {
+  background-color: #dddddd;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+.peminjam .display .big-container {
+  display: flex;
+  flex-direction: row;
+  /* background-color: #cf2a27; */
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.peminjam .display .mini-container {
+  display: flex;
+  padding: 15px 0;
+  flex-direction: column;
+  background-color: #ff9900;
+  font-weight: bold;
+  color: #fff;
+  width: auto;
+  border-radius: 5px;
+}
+
+.peminjam .display .mini-container1 {
+  display: flex;
+  padding: 15px 0;
+  flex-direction: column;
+  background-color: #cf2a27;
+  font-weight: bold;
+  color: #fff;
+  width: auto;
+  border-radius: 5px;
+}
+
+.peminjam .display .mini-container2 {
+  display: flex;
+  padding: 15px 0;
+  flex-direction: column;
+  background-color: #009e0f;
+  font-weight: bold;
+  color: #fff;
+  width: auto;
+  border-radius: 5px;
+}
+
+.peminjam .display .mini-container hr,
+.peminjam .display .mini-container1 hr,
+.peminjam .display .mini-container2 hr {
+  background-color: #fff;
+  border: 1px solid #fff;
+  margin: 10px 0;
+}
+
+.peminjam .display .mini-container span,
+.peminjam .display .mini-container1 span,
+.peminjam .display .mini-container2 span {
+  padding: 0 20px 0 20px;
+  font-size: 20px;
+}
+
+.peminjam #tb-info-user {
+  width: 100%;
+  border: 1px solid#dddddd;
+  border-collapse: collapse;
+}
+
+.peminjam #tb-info-user tr > td {
+  padding: 20px;
+  border: 1px solid #dddddd;
+}
+
+/* =========================================== */
+/* ============== KOLEKSI PEMINJAM =========== */
+/* =========================================== */
+
+.peminjam .koleksi-wrap {
+  width: 100%;
+  height: 80%;
+  /* background-color: #df9292; */
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.peminjam #buku {
+  /* transform: scale(1); */
+  width: 150px;
+  height: 370px;
+  padding: 7px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.peminjam #buku img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  height: 250px;
+  margin-bottom: 10px  ;
+}
+
+.peminjam .tb-info {
+  /* padding: 5px; */
+  font-size: 12px;
+  width: 100%;
+  /* border: 1px solid #000; */
+}
+
+.peminjam .tb-info tr > #label {
+  /* padding-right: 7px; */
+  padding-bottom: 3px;
+  /* padding-right: -10px; */
+  /* border: 1px solid #000; */
+  width: auto;
+}
+
+.peminjam .tb-info tr > td {
+  padding-right: 7px;
+  padding-bottom: 5px;
+  /* border: 1px solid #000; */
+  width: 100%;
+}
+
+.peminjam .tb-info tr > td a{
+  float: right;
+  padding-top: 7px;
+  margin: 3px;
+  background-color: #2b78e4;
+  padding: 3px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+/* =========================================== */
+/* ============== ULASAN PEMINJAM ============ */
+/* =========================================== */
+
+.peminjam #tb-form-kategori{
+  /* border: 1px solid #000; */
+  width: 100%;
+}
+
+.peminjam #tb-form-kategori tr>td{
+  /* border: 1px solid #ddd; */
+  padding: 4px;
+}
+
+.peminjam #tb-form-kategori tr>#input{  /* padding: 10px; */
+  width: 90%;
+}
+
+.peminjam #tb-form-kategori tr>#label{
+  padding: -5px 0;
+  width: 10%  ;
+  font-size: 15px;
+}
+
+.peminjam #tb-form-kategori select {
+  border: 1px solid #ddd;
+  /* margin: 5px; */
+  padding: 8px 5px;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.peminjam #tb-form-kategori textarea {
+  border: 1px solid #ddd;
+  width: 99%;  
+  height: 50px;
+  padding: 3px;
+}
+
+.peminjam #tb-form-kategori input[type=submit] {
+  padding: 7px;
+  float: right;
+  background-color: #cf2a27;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.peminjam .wrap-table {
+  width: 100%;
+  height: 65%;
+  overflow-y: scroll;
+  /* background-color: #ff2d38; */
+  margin-top: 10px;
+  padding: 7px;
+}
+
+.peminjam #tb-rating{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.peminjam #tb-rating tr>th{
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #164863;
+  color: #fff;
+  position: sticky;
+  top: 0;
+}
+
+.peminjam #tb-rating tr>td{
+  border: 1px solid #ddd;
+  padding: 10px;
+  /* background-color: #164863; */
+  /* color: #fff; */
+  position: sticky;
+  text-align: center;
+  top: 0;
+}
+
+/* =========================================== */
+/* ============== PEMINJAMAN BUKU ============ */
+/* =========================================== */
+
+.peminjam #tb-form-buku {
+  width: 50%;
+}
+
+.peminjam #tb-form-buku tr > #label {
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.peminjam #tb-form-buku input[type="text"],
+.peminjam #tb-form-buku input[type="date"] {
+  padding: 8px;
+  width: 90%;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.peminjam #tb-form-buku select {
+  border: 1px solid #ddd;
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  width: 96%;
+}
+
+.peminjam #tb-form-buku textarea {
+  margin: 5px;
+  width: 92%;
+  height: 150px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.peminjam #tb-form-buku input[type="submit"] {
+  padding: 8px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 5px;
+  width: 40%;
+  background-color: #2b78e4;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.peminjam #tb-form-buku a {
+  padding: 8px 20px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 5px;
+  background-color: #2b78e4;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.peminjam #tb-form-buku input[type="submit"]:hover,
+.peminjam #tb-form-buku a:hover {
+  background-color: #cf2a27;
+  /* le tter-spacing: 2px; */
+}

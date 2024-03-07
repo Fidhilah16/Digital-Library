@@ -1,0 +1,664 @@
+<mxfile host="Electron" modified="2024-03-04T02:40:55.863Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="zoLh8ANAR3VsgE_yhPPg" version="23.1.5" type="device" pages="3">
+  <diagram name="Page-1" id="sMNunNm-jBg4uMg_KwZg">
+    <mxGraphModel dx="2206" dy="1286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="quTq8a_Gi1190Ih975qf-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="quTq8a_Gi1190Ih975qf-1" target="quTq8a_Gi1190Ih975qf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-1" value="mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-2" value="&lt;font&gt;&lt;b&gt;ALGORITMA LOGIN MULTI USER&lt;br&gt;&lt;ol&gt;&lt;li&gt;Masukkan data&lt;/li&gt;&lt;li&gt;Klik tombol login&lt;/li&gt;&lt;li&gt;validasi data, sesuaikan dengan yang di tabel&lt;/li&gt;&lt;li&gt;jika salah, muncul pesan error&lt;/li&gt;&lt;li&gt;jika berhasil, tentukan role user&lt;/li&gt;&lt;li&gt;jika admin, arahkan ke halaman admin&lt;/li&gt;&lt;li&gt;jika peminjam, arahkan ke halaman peminjam&lt;/li&gt;&lt;/ol&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="390" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-4" value="&lt;b&gt;ALGORITMA REGISTER&lt;/b&gt;&lt;br&gt;&lt;ol&gt;&lt;li&gt;Input data user&lt;/li&gt;&lt;li&gt;masukkan ke dalam tabel user&lt;/li&gt;&lt;li&gt;munculkan pesan berhasil daftar&lt;/li&gt;&lt;li&gt;arahkan ke halaman login&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="480" y="40" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-13" value="" style="group;strokeWidth=2;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="15" y="320" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-6" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.1875;strokeWidth=2;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="quTq8a_Gi1190Ih975qf-13">
+          <mxGeometry width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-7" value="$user = $_POST[username]&lt;br&gt;$pass = $_POST[password]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;fontFamily=Courier New;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="quTq8a_Gi1190Ih975qf-13">
+          <mxGeometry x="15" y="10" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="quTq8a_Gi1190Ih975qf-16" target="quTq8a_Gi1190Ih975qf-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-16" value="input $user, $pass" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="43" y="417" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="quTq8a_Gi1190Ih975qf-6" target="quTq8a_Gi1190Ih975qf-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="quTq8a_Gi1190Ih975qf-20" target="quTq8a_Gi1190Ih975qf-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="quTq8a_Gi1190Ih975qf-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="639.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-20" value="if" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="525" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="quTq8a_Gi1190Ih975qf-22" target="quTq8a_Gi1190Ih975qf-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="315" y="447" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-22" value="echo &quot;gagal&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="520" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-24" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;fontFamily=Courier New;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" target="quTq8a_Gi1190Ih975qf-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="699.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-28" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;fontFamily=Courier New;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="575" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="quTq8a_Gi1190Ih975qf-29" target="quTq8a_Gi1190Ih975qf-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="quTq8a_Gi1190Ih975qf-29" target="quTq8a_Gi1190Ih975qf-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-29" value="if&lt;br&gt;admin" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="97.5" y="740" width="65" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="quTq8a_Gi1190Ih975qf-33" target="quTq8a_Gi1190Ih975qf-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-33" value="if&lt;br&gt;peminjam" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="97.5" y="850" width="65" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-35" value="header &quot;admin.php&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="745" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="quTq8a_Gi1190Ih975qf-36" target="quTq8a_Gi1190Ih975qf-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-36" value="header &quot;peminjam.php&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="222.5" y="855" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-39" value="selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="258" y="990" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Courier New;strokeWidth=2;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="quTq8a_Gi1190Ih975qf-35" target="quTq8a_Gi1190Ih975qf-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="775" />
+              <mxPoint x="420" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-42" value="else" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;fontFamily=Courier New;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="810" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="quTq8a_Gi1190Ih975qf-43" target="quTq8a_Gi1190Ih975qf-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-43" value="mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="574.75" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="quTq8a_Gi1190Ih975qf-44" target="quTq8a_Gi1190Ih975qf-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-44" value="input data user" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="537.75" y="300" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-46" value="$_SESSION =&amp;nbsp; $user&lt;br&gt;$_SESSION = $psss" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="43" y="640" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="quTq8a_Gi1190Ih975qf-47" target="quTq8a_Gi1190Ih975qf-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-47" value="INSERT INTO tb_user" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="532.75" y="410" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="quTq8a_Gi1190Ih975qf-49" target="quTq8a_Gi1190Ih975qf-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-49" value="echo &quot;success&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="537.25" y="530" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="quTq8a_Gi1190Ih975qf-51" target="quTq8a_Gi1190Ih975qf-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-51" value="header &quot;login.php&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="532.25" y="650" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quTq8a_Gi1190Ih975qf-53" value="selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="575.25" y="760" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mgVT9TEqOwrYbadON0Vy" name="Page-2">
+    <mxGraphModel dx="1793" dy="1045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ImQWRiZTNNXR9eItkwav-1" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;ALGORITMA TAMBAH DATA BUKU&lt;br&gt;&lt;ol&gt;&lt;li&gt;Input data buku&lt;/li&gt;&lt;li&gt;Klik tombol &quot;Tambahkan&quot;]&lt;/li&gt;&lt;li&gt;Masukkan ke dalam database&lt;/li&gt;&lt;li&gt;Arahkan ke halaman Data Buku&lt;/li&gt;&lt;/ol&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="TUqFU_cj6aq2Z9-30mN3-2" target="TUqFU_cj6aq2Z9-30mN3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-2" value="mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="92.5" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="TUqFU_cj6aq2Z9-30mN3-4" target="TUqFU_cj6aq2Z9-30mN3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-4" value="input data buku" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="55.5" y="260" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-21" value="nav data-buku.php" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="381.25" y="260" width="187.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="TUqFU_cj6aq2Z9-30mN3-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="142.5" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-6" value="INSERT INTO tb_buku" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="50.5" y="370" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="TUqFU_cj6aq2Z9-30mN3-10" target="TUqFU_cj6aq2Z9-30mN3-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-10" value="header &quot;data-buku.php&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="50.5" y="490" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-11" value="selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="93.5" y="600" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-14" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;ALGORITMA&amp;nbsp;TAMPIL DATA BUKU&lt;br&gt;&lt;ol&gt;&lt;li&gt;Klik tombol &quot;Lihat Buku&quot;&lt;/li&gt;&lt;li&gt;Arahkan ke halaman data buku&lt;/li&gt;&lt;li&gt;Pilih tabel buku dengan sql&lt;/li&gt;&lt;li&gt;Tampilkan data buku sesuai dengan yang ada di tabel&lt;/li&gt;&lt;/ol&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="40" width="430" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TUqFU_cj6aq2Z9-30mN3-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-15" value="mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="TUqFU_cj6aq2Z9-30mN3-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TUqFU_cj6aq2Z9-30mN3-19" target="TUqFU_cj6aq2Z9-30mN3-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-19" value="header &quot;data-buku.php&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="360" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TUqFU_cj6aq2Z9-30mN3-23" target="TUqFU_cj6aq2Z9-30mN3-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-23" value="SELECT * FROM tb_buku" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="382.75" y="470" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TUqFU_cj6aq2Z9-30mN3-25" target="TUqFU_cj6aq2Z9-30mN3-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-25" value="tampilkan semua data &lt;br&gt;buku yang ada di tabel" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="355.25" y="570" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TUqFU_cj6aq2Z9-30mN3-27" value="selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="425.25" y="670" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EEwnJN2-n6SYohXzDMbQ" name="ALL">
+    <mxGraphModel dx="1793" dy="1045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="JIj9-xhbvpHrjCYdlLnH-2" target="JIj9-xhbvpHrjCYdlLnH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-2" value="mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-3" value="&lt;font&gt;&lt;b&gt;ALGORITMA&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;b&gt;&lt;ol&gt;&lt;li&gt;&lt;font&gt;&lt;span style=&quot;font-weight: bold; background-color: initial;&quot;&gt;Masukkan data&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;Klik tombol login&lt;/li&gt;&lt;li&gt;validasi data, sesuaikan dengan yang di tabel&lt;/li&gt;&lt;li&gt;jika salah, muncul pesan error&lt;/li&gt;&lt;li&gt;jika berhasil, tentukan role user&lt;/li&gt;&lt;li&gt;jika admin, arahkan ke halaman admin&lt;/li&gt;&lt;li&gt;jika peminjam, arahkan ke halaman peminjam&lt;/li&gt;&lt;/ol&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="283" y="190" width="390" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-4" value="&lt;b&gt;ALGORITMA&lt;/b&gt;&lt;br&gt;&lt;ol&gt;&lt;li&gt;Input data user&lt;/li&gt;&lt;li&gt;Pilih role user (admin, peminjam)&lt;/li&gt;&lt;li&gt;Klik tombol &quot;registrasi&quot;&lt;/li&gt;&lt;li&gt;Proses variabel dimasukkan ke dalam tabel user&lt;/li&gt;&lt;li&gt;munculkan pesan berhasil daftar&lt;/li&gt;&lt;li&gt;arahkan ke halaman login&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="150" width="390" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-47" value="&lt;b&gt;PSEUDOCODE&lt;br&gt;&lt;br&gt;//deklarasi&lt;br&gt;$user = $_POST[nama_lengkap} : varchar (255)&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;$username= $_POST[username} : varchar (255)&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;$pass = $_POST[password} : varchar (255)&lt;br&gt;&lt;/b&gt;&lt;b&gt;$email = $_POST[email] : varchar (255)&lt;br&gt;$dom = $_POST[domisili] : varchar (255)&lt;br&gt;#level = $_POST[role] : ENUM (&#39;Administrator&#39;, &#39;Peminjam&#39;)&lt;br&gt;tb_user = tabel user&lt;br&gt;&lt;br&gt;//proses&lt;br&gt;INPUT $user, $username, $pass, $email, $dom, $level;&lt;br&gt;INSERT INTO tb_user;&lt;br&gt;&lt;br&gt;WRITE &quot;SUCCESS&quot;;&lt;br&gt;&lt;br&gt;header &quot;login.php&quot;;&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="310" width="440" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-5" value="" style="group;strokeWidth=2;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="250" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-6" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.1875;strokeWidth=2;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="JIj9-xhbvpHrjCYdlLnH-5">
+          <mxGeometry width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-7" value="$user = $_POST[username]&lt;br&gt;$pass = $_POST[password]&lt;br&gt;$level =$_POST[role]" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;fontFamily=Courier New;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="JIj9-xhbvpHrjCYdlLnH-5">
+          <mxGeometry x="15" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="JIj9-xhbvpHrjCYdlLnH-9" target="JIj9-xhbvpHrjCYdlLnH-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-9" value="input $user, $pass" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="58.5" y="350" width="193" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="JIj9-xhbvpHrjCYdlLnH-6" target="JIj9-xhbvpHrjCYdlLnH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="JIj9-xhbvpHrjCYdlLnH-13" target="JIj9-xhbvpHrjCYdlLnH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="JIj9-xhbvpHrjCYdlLnH-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="569.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-13" value="if" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="455" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="JIj9-xhbvpHrjCYdlLnH-15" target="JIj9-xhbvpHrjCYdlLnH-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="377" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-15" value="echo &quot;gagal&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="450" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-16" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;fontFamily=Courier New;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" target="JIj9-xhbvpHrjCYdlLnH-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="629.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-18" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;fontFamily=Courier New;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="505" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="JIj9-xhbvpHrjCYdlLnH-21" target="JIj9-xhbvpHrjCYdlLnH-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="JIj9-xhbvpHrjCYdlLnH-21" target="JIj9-xhbvpHrjCYdlLnH-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-21" value="if&lt;br&gt;admin" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="122.5" y="670" width="65" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="JIj9-xhbvpHrjCYdlLnH-23" target="JIj9-xhbvpHrjCYdlLnH-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-23" value="if&lt;br&gt;peminjam" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="780" width="67.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-24" value="header &quot;admin.php&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="675" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="JIj9-xhbvpHrjCYdlLnH-26" target="JIj9-xhbvpHrjCYdlLnH-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-26" value="header &quot;peminjam.php&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="785" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-27" value="selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="283" y="920" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="JIj9-xhbvpHrjCYdlLnH-24" target="JIj9-xhbvpHrjCYdlLnH-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="445" y="705" />
+              <mxPoint x="445" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-29" value="else" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;fontFamily=Courier New;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="740" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="JIj9-xhbvpHrjCYdlLnH-31" target="JIj9-xhbvpHrjCYdlLnH-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-31" value="mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="975.5" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="JIj9-xhbvpHrjCYdlLnH-33" target="JIj9-xhbvpHrjCYdlLnH-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-33" value="input data user" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="938.5" y="250" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-34" value="$_SESSION =&amp;nbsp; $user&lt;br&gt;$_SESSION = $level" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="68" y="570" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="JIj9-xhbvpHrjCYdlLnH-36" target="JIj9-xhbvpHrjCYdlLnH-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-36" value="INSERT INTO tb_user" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="933.5" y="360" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="JIj9-xhbvpHrjCYdlLnH-38" target="JIj9-xhbvpHrjCYdlLnH-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-38" value="echo &quot;success&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="938" y="480" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="JIj9-xhbvpHrjCYdlLnH-40" target="JIj9-xhbvpHrjCYdlLnH-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-40" value="header &quot;login.php&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="933" y="600" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-41" value="selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="976" y="710" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-42" value="LOGIN MULTI USER" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#000000;strokeColor=#b85450;fontStyle=1;fontSize=16;fontFamily=Courier New;fontColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="68" y="50" width="342" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-43" value="&lt;b&gt;PSEUDOCODE&lt;br&gt;&lt;br&gt;//deklarasi&lt;br&gt;$user = $_POST[username] : varchar (255)&lt;br&gt;$pass = $_POST[password} : varchar (255)&lt;br&gt;$level = $_POST[role] : ENUM (&#39;Admin&#39;, &#39;Peminjam&#39;)&lt;br&gt;&lt;br&gt;//proses&lt;br&gt;INPUT $user &amp;amp; $pass;&lt;br&gt;IF $user &amp;amp; $pass = TRUE, VALIDASI $user &amp;amp; $level;&lt;br&gt;&lt;/b&gt;&lt;b&gt;WRITE &quot;BERHASIL&quot;;&lt;br&gt;&lt;br&gt;header &quot;index.php&quot;;&lt;br&gt;&lt;br&gt;ELSE $user $ $pass = FALSE, &lt;/b&gt;&lt;b&gt;WRTIE &quot;GAGAL&quot;;&lt;/b&gt;&lt;b&gt;&lt;br&gt;RETURN INPUT;&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="360" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="JIj9-xhbvpHrjCYdlLnH-45" value="REGISITER USER" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#000000;strokeColor=#b85450;fontStyle=1;fontSize=16;fontFamily=Courier New;fontColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="933" y="50" width="342" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-1" value="&lt;font&gt;&lt;b&gt;ALGORITMA&lt;br&gt;&lt;ol&gt;&lt;li&gt;Input data buku&lt;/li&gt;&lt;li&gt;Klik tombol &quot;Tambah data buku&quot;&lt;/li&gt;&lt;li&gt;INSERT INTO tb_buku&lt;/li&gt;&lt;li&gt;Munculkan pesan &quot;Berhasil di tambah&quot;&lt;/li&gt;&lt;li&gt;arahkan ke halaman data buku&lt;/li&gt;&lt;/ol&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1159.5" y="920" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-2" value="TAMBAH BUKU" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#000000;strokeColor=#b85450;fontStyle=1;fontSize=16;fontFamily=Courier New;fontColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="933" y="830" width="342" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-4" target="4AIdfLs7GRcoyVfrU8eL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-4" value="mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="980.5" y="920" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-6" target="4AIdfLs7GRcoyVfrU8eL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-6" value="input data buku" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="943.5" y="1020" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-8" target="4AIdfLs7GRcoyVfrU8eL-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-8" value="INSERT INTO tb_buku" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="938.5" y="1130" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-10" target="4AIdfLs7GRcoyVfrU8eL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-10" value="echo &quot;berhasil&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="943" y="1250" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-12" target="4AIdfLs7GRcoyVfrU8eL-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-12" value="header &quot;data-buku.php&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="938" y="1370" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-13" value="selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="981" y="1480" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-14" value="&lt;b&gt;PSEUDOCODE&lt;br&gt;&lt;br&gt;//deklarasi&lt;br&gt;$judul= $_POST[judul} : varchar (255)&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;$kategori = $_POST[kategori} : varchar (255)&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;$penulis = $_POST[penulis} : varchar (255)&lt;br&gt;&lt;/b&gt;&lt;b&gt;$penerbit= $_POST[penerbit] : varchar (255)&lt;br&gt;$t_terbit = $_POST[tahun_terbit] : varchar (255)&lt;br&gt;$sinopsis = TEXT&lt;br&gt;&lt;br&gt;&lt;br&gt;//proses&lt;br&gt;INPUT $user, $judul, $kategori, $penulis, $penerbit, $t_terbit, $sinopsis;&lt;br&gt;INSERT INTO tb_buku;&lt;br&gt;&lt;br&gt;WRITE &quot;SUCCESS&quot;;&lt;br&gt;&lt;br&gt;header &quot;data-buku.php&quot;;&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1100" width="560" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-15" value="TAMBAH KATEGORI" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#000000;strokeColor=#b85450;fontStyle=1;fontSize=16;fontFamily=Courier New;fontColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="98" y="1140" width="342" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-16" value="&lt;font&gt;&lt;b&gt;ALGORITMA&lt;br&gt;&lt;ol&gt;&lt;li&gt;Input kategori&lt;/li&gt;&lt;li&gt;Klik tombol &quot;Tambah Kategori&quot;&lt;/li&gt;&lt;li&gt;INSERT INTO tb_kategori&lt;/li&gt;&lt;li&gt;Munculkan pesan &quot;Berhasil di tambah&quot;&lt;/li&gt;&lt;li&gt;Tampilkan data kategori&lt;/li&gt;&lt;/ol&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="289.5" y="1240" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-18" target="4AIdfLs7GRcoyVfrU8eL-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-18" value="mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="110.5" y="1240" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-20" target="4AIdfLs7GRcoyVfrU8eL-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-20" value="input kategori" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="73.5" y="1340" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-22" target="4AIdfLs7GRcoyVfrU8eL-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-22" value="INSERT INTO tb_kategori" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="68.5" y="1450" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160.5" y="1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-24" value="echo &quot;berhasil&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="73" y="1570" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" target="4AIdfLs7GRcoyVfrU8eL-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160.51851851851848" y="1750" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-27" value="selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="1800" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-28" value="&lt;b&gt;PSEUDOCODE&lt;br&gt;&lt;br&gt;//deklarasi&lt;br&gt;$kategori = $_POST[kategori];&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;br&gt;//proses&lt;br&gt;INPUT $kategori;&lt;br&gt;INSERT INTO tb_kategori;&lt;br&gt;&lt;br&gt;ECHO &quot;BERHASIL&quot;;&lt;br&gt;WRITE &quot;data kategori&quot;&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="289.5" y="1400" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-42" value="tampilkan data &lt;br&gt;kategori" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="73.5" y="1690" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-43" value="GENERATE LAPORAN" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#000000;strokeColor=#b85450;fontStyle=1;fontSize=16;fontFamily=Courier New;fontColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="50" width="342" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-44" value="&lt;b&gt;ALGORITMA&lt;/b&gt;&lt;br&gt;&lt;ol style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;Klik tombol cetak&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Arahkan ke halaman generate&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Pilih laporan yang hendak di cetak&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Arahkan ke halaman print&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Lalu cetak laporan dalam bentuk PDF&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="641" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;strokeWidth=2;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-45" target="4AIdfLs7GRcoyVfrU8eL-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-45" value="mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-46" value="klik tombol cetak&lt;br&gt;header &quot;generate.php&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="1725" y="380" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;strokeWidth=2;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-48" target="4AIdfLs7GRcoyVfrU8eL-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-48" value="data-buku-report.php" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="1711" y="490" width="198.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;strokeWidth=2;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-49" target="4AIdfLs7GRcoyVfrU8eL-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-49" value="kategori-report.php" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="1710.75" y="565" width="199" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-50" target="4AIdfLs7GRcoyVfrU8eL-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-50" value="user-report.php" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="1721.5" y="639" width="177.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;strokeWidth=2;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-46" target="4AIdfLs7GRcoyVfrU8eL-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-58" value="" style="group;strokeWidth=2;fontFamily=Courier New;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1678" y="260" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-56" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.17647058823529413;fontFamily=Courier New;strokeWidth=2;" vertex="1" parent="4AIdfLs7GRcoyVfrU8eL-58">
+          <mxGeometry width="264" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-57" value="1 = halaman laporan data buku&lt;br&gt;2 = halaman laporan kategori&lt;br&gt;3 =halaman laporan pengguna" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=1;fontFamily=Courier New;strokeWidth=2;" vertex="1" parent="4AIdfLs7GRcoyVfrU8eL-58">
+          <mxGeometry x="17" y="10" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;strokeWidth=2;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-56" target="4AIdfLs7GRcoyVfrU8eL-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-69" value="" style="group;strokeWidth=2;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1956" y="492.5" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-63" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;strokeWidth=2;" vertex="1" parent="4AIdfLs7GRcoyVfrU8eL-69">
+          <mxGeometry width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-64" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;" vertex="1" parent="4AIdfLs7GRcoyVfrU8eL-69">
+          <mxGeometry x="5.5" y="9" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-48" target="4AIdfLs7GRcoyVfrU8eL-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-73" value="" style="group;strokeWidth=2;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1957" y="567.5" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-65" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;strokeWidth=2;" vertex="1" parent="4AIdfLs7GRcoyVfrU8eL-73">
+          <mxGeometry width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-66" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;" vertex="1" parent="4AIdfLs7GRcoyVfrU8eL-73">
+          <mxGeometry x="5.5" y="9" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-74" value="" style="group;strokeWidth=2;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1960" y="641" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-67" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;strokeWidth=2;" vertex="1" parent="4AIdfLs7GRcoyVfrU8eL-74">
+          <mxGeometry width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-68" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;" vertex="1" parent="4AIdfLs7GRcoyVfrU8eL-74">
+          <mxGeometry x="5.5" y="9" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-50" target="4AIdfLs7GRcoyVfrU8eL-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-49" target="4AIdfLs7GRcoyVfrU8eL-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-82" value="selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1760.25" y="725" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-96" value="" style="group;strokeWidth=2;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2352.5" y="160" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-97" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;strokeWidth=2;" vertex="1" parent="4AIdfLs7GRcoyVfrU8eL-96">
+          <mxGeometry width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-98" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;" vertex="1" parent="4AIdfLs7GRcoyVfrU8eL-96">
+          <mxGeometry x="5.5" y="9" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-100" target="4AIdfLs7GRcoyVfrU8eL-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-100" value="tampilan web siap print" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="240" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-102" target="4AIdfLs7GRcoyVfrU8eL-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-102" value="print laporan" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2300.5" y="332.5" width="149" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-104" target="4AIdfLs7GRcoyVfrU8eL-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-104" value="laporan yang sudah di print" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="420" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-97" target="4AIdfLs7GRcoyVfrU8eL-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-106" value="selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="2325" y="515" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-107" value="" style="group;strokeWidth=2;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2592.5" y="162.5" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-108" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;strokeWidth=2;" vertex="1" parent="4AIdfLs7GRcoyVfrU8eL-107">
+          <mxGeometry width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-109" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;" vertex="1" parent="4AIdfLs7GRcoyVfrU8eL-107">
+          <mxGeometry x="5.5" y="9" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-111" target="4AIdfLs7GRcoyVfrU8eL-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-111" value="tampilan web siap print" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="242.5" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-113" target="4AIdfLs7GRcoyVfrU8eL-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-113" value="print laporan" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2540.5" y="335" width="149" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-115" target="4AIdfLs7GRcoyVfrU8eL-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-115" value="laporan yang sudah di print" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="422.5" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4AIdfLs7GRcoyVfrU8eL-108" target="4AIdfLs7GRcoyVfrU8eL-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-117" value="selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="2565" y="517.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-118" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2040" y="160" width="210" height="415" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-79" value="" style="group;strokeWidth=2;" vertex="1" connectable="0" parent="4AIdfLs7GRcoyVfrU8eL-118">
+          <mxGeometry x="82.5" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-80" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;strokeWidth=2;" vertex="1" parent="4AIdfLs7GRcoyVfrU8eL-79">
+          <mxGeometry width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-81" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;" vertex="1" parent="4AIdfLs7GRcoyVfrU8eL-79">
+          <mxGeometry x="5.5" y="9" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-87" value="tampilan web siap print" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="4AIdfLs7GRcoyVfrU8eL-118">
+          <mxGeometry y="80" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-88" value="print laporan" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="4AIdfLs7GRcoyVfrU8eL-118">
+          <mxGeometry x="30.5" y="172.5" width="149" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4AIdfLs7GRcoyVfrU8eL-118" source="4AIdfLs7GRcoyVfrU8eL-87" target="4AIdfLs7GRcoyVfrU8eL-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-89" value="laporan yang sudah di print" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="4AIdfLs7GRcoyVfrU8eL-118">
+          <mxGeometry y="260" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4AIdfLs7GRcoyVfrU8eL-118" source="4AIdfLs7GRcoyVfrU8eL-88" target="4AIdfLs7GRcoyVfrU8eL-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4AIdfLs7GRcoyVfrU8eL-118" source="4AIdfLs7GRcoyVfrU8eL-80" target="4AIdfLs7GRcoyVfrU8eL-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-94" value="selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Courier New;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="4AIdfLs7GRcoyVfrU8eL-118">
+          <mxGeometry x="55" y="355" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4AIdfLs7GRcoyVfrU8eL-118" source="4AIdfLs7GRcoyVfrU8eL-89" target="4AIdfLs7GRcoyVfrU8eL-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AIdfLs7GRcoyVfrU8eL-119" value="&lt;b&gt;PSEUDOCODE&lt;br&gt;&lt;br&gt;//deklarasi&lt;br&gt;$user = $_POST[nama_lengkap} : varchar (255)&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;$username= $_POST[username} : varchar (255)&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;$pass = $_POST[password} : varchar (255)&lt;br&gt;&lt;/b&gt;&lt;b&gt;$email = $_POST[email] : varchar (255)&lt;br&gt;$dom = $_POST[domisili] : varchar (255)&lt;br&gt;#level = $_POST[role] : ENUM (&#39;Administrator&#39;, &#39;Peminjam&#39;)&lt;br&gt;tb_user = tabel user&lt;br&gt;&lt;br&gt;//proses&lt;br&gt;INPUT $user, $username, $pass, $email, $dom, $level;&lt;br&gt;INSERT INTO tb_user;&lt;br&gt;&lt;br&gt;WRITE &quot;SUCCESS&quot;;&lt;br&gt;&lt;br&gt;header &quot;login.php&quot;;&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="639" width="440" height="290" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
